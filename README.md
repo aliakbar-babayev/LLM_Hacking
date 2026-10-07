@@ -22,12 +22,6 @@ Personal notes and write-ups from my journey learning **LLM / AI security** thro
 - OWASP Top 10 for LLM Applications
 - Mitigations and defensive considerations
 
-## 🛠️ Tools & Environment
-
-- Hack The Box Academy labs
-- Kali / Parrot Linux
-- Burp Suite
-- Obsidian (for note-taking)
 
 ## 📚 Resources
 
