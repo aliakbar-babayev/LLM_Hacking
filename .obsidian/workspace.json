@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming AI/Prompt Injection/LLM Hallucinations.md",
+                "file": "Red Teaming AI/Attacking AI - Application and System/Insecure Integrated Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Hallucinations"
+              "title": "Insecure Integrated Components"
             }
           }
         ]
@@ -190,6 +190,20 @@
   },
   "active": "d4dfbf2ac479656a",
   "lastOpenFiles": [
+    "Red Teaming AI/Attacking AI - Application and System/Denial of ML Service.md",
+    "Red Teaming AI/Attacking AI - Application and System/Insecure Integrated Components.md",
+    "Red Teaming AI/Attacking AI - Application and System/Model Reverse Engineering.md",
+    "Red Teaming AI/Attacking AI - Application and System/Overview of Application & System Components.md",
+    "Red Teaming AI/Data Attacks/Targeted Label Attacks.md",
+    "Red Teaming AI/Attacking AI - Application and System",
+    "Red Teaming AI/Data Attacks/Label Flipping.md",
+    "Red Teaming AI/Data Attacks/Introduction to AI Data.md",
+    "Red Teaming AI/Data Attacks/AI Data Attacks.md",
+    "Red Teaming AI/Prompt Injection/Safeguard.md",
+    "Red Teaming AI/Data Attacks",
+    "Red Teaming AI/Prompt Injection/Reconnaissance.md",
+    "Red Teaming AI/Prompt Injection/Abuse Attaks.md",
+    "Red Teaming AI/Prompt Injection/LLM Hallucinations.md",
     "Red Teaming AI/ML OWASP Top 10.md",
     "Red Teaming AI/LLM OWASP Top 10.md"
   ]

@@ -1,0 +1,14 @@
+
+While ML deployments may be vulnerable to common Denial-of-Service (DoS) attack vectors, such as flooding the system with network traffic to overwhelm its resources, they can also be targeted by DoS attacks that directly exploit the deployment components. These attacks exploit the computational and algorithmic characteristics of ML models. For instance, attackers might flood an ML API with a high volume of queries, especially those designed to be computationally expensive, causing latency spikes, system crashes, or excessive resource consumption. More subtle forms of DoS attacks involve adversarial inputs crafted to trigger worst-case behaviors in the model, such as inputs that result in long inference paths or cause inefficient internal computations. These attacks are particularly concerning for systems that serve real-time or mission-critical functions, such as autonomous vehicles or fraud detection platforms. Generally, DoS attacks can lead to significant downtime, degraded user experience, or increased operational costs, particularly when ML models are run in cloud environments. Because these attacks can appear as normal usage, they are often difficult to detect and mitigate with traditional security measures.
+
+## Sponge Examples
+
+`Sponge Examples`, as introduced in [this](https://arxiv.org/pdf/2006.03463) paper, are specifically crafted adversarial inputs that maximize energy consumption and latency in the ML mode. As such, inference on these inputs forces the model to perform in the worst possible way in terms of power consumption and latency, making them a perfect fit for DoS attacks. In cases where the ML deployment runs on a battery-powered device (e.g., smartphones), high energy consumption may even drain the battery entirely, causing a complete outage in the ML system.
+
+The basic idea behind sponge examples is to create ML inputs that result in high energy consumption or inference latency without increasing the input dimension. For obvious reasons, higher-dimensional inputs will require more computational effort to process. For instance, a longer input prompt to an LLM or a higher resolution input image to a visual model will require more computational work to process, thus directly resulting in higher energy consumption and latency. However, limiting the input dimension can prevent DoS attacks resulting from overly high-dimensional inputs. For instance, the input prompt to language models can be cut off after a maximum length, an input image scaled down to a lower resolution, or rejected entirely if it is too large. Therefore, sponge examples aim to increase computational work **without** increasing the input dimension.
+
+
+#### Denial of ML Service
+
+After discussing the process of generating sponge examples, let us explore some basic principles that make sponge examples effective in DoS attacks.
+
