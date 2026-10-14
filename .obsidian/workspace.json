@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming AI/Attacking AI - Application and System/Insecure Integrated Components.md",
+                "file": "Red Teaming AI/Attacking AI - Application and System/Rogue Actions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insecure Integrated Components"
+              "title": "Rogue Actions"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "d4dfbf2ac479656a",
   "lastOpenFiles": [
-    "Red Teaming AI/Attacking AI - Application and System/Denial of ML Service.md",
+    "README.md.tmp.141066.b08a635a8a62",
     "Red Teaming AI/Attacking AI - Application and System/Insecure Integrated Components.md",
+    "Red Teaming AI/Attacking AI - Application and System/Rogue Actions.md",
+    "Red Teaming AI/Attacking AI - Application and System/Denial of ML Service.md",
     "Red Teaming AI/Attacking AI - Application and System/Model Reverse Engineering.md",
     "Red Teaming AI/Attacking AI - Application and System/Overview of Application & System Components.md",
     "Red Teaming AI/Data Attacks/Targeted Label Attacks.md",
