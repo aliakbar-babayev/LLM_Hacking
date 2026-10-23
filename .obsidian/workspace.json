@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Teaming AI/AI Evasion - First-Order Attacks/DeepFool.md",
+                "file": "Red Teaming AI/AI Evasion - First-Order Attacks/Norm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DeepFool"
+              "title": "Norm"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "d4dfbf2ac479656a",
   "lastOpenFiles": [
-    "Red Teaming AI/AI Evasion - First-Order Attacks/Fast Gradient Sign Method (FGSM).md",
     "Red Teaming AI/AI Evasion - First-Order Attacks/DeepFool.md",
+    "Red Teaming AI/AI Evasion - First-Order Attacks/Fast Gradient Sign Method (FGSM).md",
     "Red Teaming AI/AI Evasion - First-Order Attacks/Norm.md",
     "Red Teaming AI/AI Evasion - First-Order Attacks/Introduction to First-Order Evasion Attacks.md",
     "Red Teaming AI/AI Evasion - Foundations/The GoodWords Attack.md",
